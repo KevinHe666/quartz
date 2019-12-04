@@ -1,4 +1,4 @@
-package com.jugg.quartzkk.kk;
+package com.jugg.quartzkk.kk.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.PropertiesFactoryBean;

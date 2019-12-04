@@ -1,4 +1,4 @@
-package com.jugg.quartzkk.kk;
+package com.jugg.quartzkk.kk.config;
 
 import com.baomidou.mybatisplus.entity.DefaultMetaObjectHandler;
 import com.baomidou.mybatisplus.entity.GlobalConfiguration;

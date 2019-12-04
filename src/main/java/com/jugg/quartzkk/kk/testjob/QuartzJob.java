@@ -1,4 +1,4 @@
-package com.jugg.quartzkk.kk;
+package com.jugg.quartzkk.kk.testjob;
 
 import org.quartz.DisallowConcurrentExecution;
 import org.quartz.JobExecutionContext;
