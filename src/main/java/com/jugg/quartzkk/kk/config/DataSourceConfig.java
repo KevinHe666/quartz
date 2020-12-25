@@ -15,7 +15,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import javax.sql.DataSource;
 
 @Configuration
-@MapperScan("com.creditease.ttsapi.mapper*")
+@MapperScan("com.jugg.quartzkk.*")
 public class DataSourceConfig {
 
     @Bean
@@ -32,7 +32,6 @@ public class DataSourceConfig {
         sessionFactory.setMapperLocations(
                 new PathMatchingResourcePatternResolver()
                         .getResources("classpath*:mapper/*.xml"));
-//        sessionFactory.setTypeAliasesPackage("com.creditease.ttsapi.entity");
         sessionFactory.setPlugins(new Interceptor[]{
                 new PaginationInterceptor(),
         });
